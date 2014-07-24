@@ -84,12 +84,12 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/gps.conf:system/etc/gps.conf
 
 # NFC packages
-PRODUCT_PACKAGES += \
-    libnfc \
-    libnfc_jni \
-    Nfc \
-    Tag \
-    com.android.nfc_extras
+# PRODUCT_PACKAGES += \
+#    libnfc \
+#    libnfc_jni \
+#    Nfc \
+#    Tag \
+#    com.android.nfc_extras
 
 # NFCEE access control
 ifeq ($(TARGET_BUILD_VARIANT),user)
